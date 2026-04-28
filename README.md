@@ -1,44 +1,44 @@
-        # 📈 SEO & Content Marketing Skills Suite
-        ### Derived from [wshobson/commands](https://github.com/wshobson/commands)
+# 📈 SEO & Content Marketing Skills Suite
+### Derived from [wshobson/commands](https://github.com/wshobson/commands)
 
-        ![Domain](https://img.shields.io/badge/Domain-SEO%20&%20Content%20Marketing-brightgreen?style=for-the-badge)
-        ![Commands](https://img.shields.io/badge/Commands-10-blue?style=for-the-badge)
-        ![Workflows](https://img.shields.io/badge/Workflows-5-orange?style=for-the-badge)
-        ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-SEO%20&%20Content%20Marketing-brightgreen?style=for-the-badge)
+![Commands](https://img.shields.io/badge/Commands-10-blue?style=for-the-badge)
+![Workflows](https://img.shields.io/badge/Workflows-5-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-        > **Adaptation of `wshobson/commands` for SEO & Content Marketing use cases.**
-        > Source focus: _57 production slash commands: 15 workflows, 42 tools_
+> **Adaptation of `wshobson/commands` for SEO & Content Marketing use cases.**
+> Source focus: _57 production slash commands: 15 workflows, 42 tools_
 
-        ---
+---
 
-        ## What This Skill Suite Does
+## What This Skill Suite Does
 
-        Keyword research, content audits, SERP analysis, technical SEO and content strategy.
+Keyword research, content audits, SERP analysis, technical SEO and content strategy.
 
-        This collection provides **10 specialised commands** and
-        **5 multi-step workflows**, all with a consistent
-        structured-output UI so you always know exactly where you are and what to do next.
+This collection provides **10 specialised commands** and
+**5 multi-step workflows**, all with a consistent
+structured-output UI so you always know exactly where you are and what to do next.
 
-        ---
+---
 
-        ## Quick Install
+## Quick Install
 
-        ```bash
-        # Clone this skill
-        cp -r . ~/.claude/skills/r00-wshobson-commands--seo/
+```bash
+# Clone this skill
+cp -r . ~/.claude/skills/r00-wshobson-commands--seo/
 
-        # Register in Claude Code
-        # In a Claude Code session:
-        /read ~/.claude/skills/r00-wshobson-commands--seo/SKILL.md
-        ```
+# Register in Claude Code
+# In a Claude Code session:
+/read ~/.claude/skills/r00-wshobson-commands--seo/SKILL.md
+```
 
-        ---
+---
 
-        ## Commands
+## Commands
 
-        | Command | Description |
-        |---------|-------------|
-        | `/keyword-research` | Deep keyword clustering and opportunity scoring with SERP intent mapping |
+| Command | Description |
+|---------|-------------|
+| `/keyword-research` | Deep keyword clustering and opportunity scoring with SERP intent mapping |
 | `/content-audit` | Full-site content quality score, duplication check and cannibalization report |
 | `/technical-seo` | Crawl budget, Core Web Vitals, schema markup and indexability audit |
 | `/competitor-gap` | Backlink gap, topic gap and featured-snippet opportunity analysis |
@@ -49,39 +49,39 @@
 | `/local-seo` | NAP consistency, Google Business Profile optimisation and local citation audit |
 | `/content-calendar` | Data-driven editorial calendar built from search demand and seasonality |
 
-        **Usage:**
-        ```bash
-        /keyword-research <target>
-        /content-audit --scope full --output md
-        ```
+**Usage:**
+```bash
+/keyword-research <target>
+/content-audit --scope full --output md
+```
 
-        ---
+---
 
-        ## Workflows (Multi-step)
+## Workflows (Multi-step)
 
-        | Workflow | Description |
-        |----------|-------------|
-        | `full-seo-sprint` | 12-step SEO sprint: audit → keyword map → content plan → technical fixes |
+| Workflow | Description |
+|----------|-------------|
+| `full-seo-sprint` | 12-step SEO sprint: audit → keyword map → content plan → technical fixes |
 | `launch-seo` | Pre-launch SEO checklist with canonical, hreflang and sitemap validation |
 | `content-refresh` | Identify and refresh underperforming pages to recover lost rankings |
 | `authority-building` | End-to-end digital PR and link-building campaign workflow |
 | `ai-content-pipeline` | Keyword → brief → draft → optimise → publish automation pipeline |
 
-        **Usage:**
-        ```bash
-        /workflows:full-seo-sprint <target> --scope full
-        ```
+**Usage:**
+```bash
+/workflows:full-seo-sprint <target> --scope full
+```
 
-        ---
+---
 
-        ## UI Design
+## UI Design
 
-        All commands display structured output with:
+All commands display structured output with:
 
-        - **Progress panels** — real-time step tracking
-        - **Findings tables** — sorted by severity (🔴🟠🟡🟢)
-        - **Action checklists** — quick wins → medium-term → strategic
-        - **Summary cards** — at-a-glance metrics after each command
+- **Progress panels** — real-time step tracking
+- **Findings tables** — sorted by severity (🔴🟠🟡🟢)
+- **Action checklists** — quick wins → medium-term → strategic
+- **Summary cards** — at-a-glance metrics after each command
 
 
 ## Progress Display Example
@@ -107,37 +107,37 @@
 ```
 
 
-        ---
+---
 
-        ## Interaction Pattern
+## Interaction Pattern
 
-        Every command follows this 5-step structure:
+Every command follows this 5-step structure:
 
-        ```
-        ① Scope Confirmation  — verify target and options with user
-        ② Live Analysis       — progress bar while working
-        ③ Findings Table      — structured results sorted by impact
-        ④ Action Plan         — prioritised, time-boxed recommendations
-        ⑤ Next Steps          — suggested follow-up commands
-        ```
+```
+① Scope Confirmation  — verify target and options with user
+② Live Analysis       — progress bar while working
+③ Findings Table      — structured results sorted by impact
+④ Action Plan         — prioritised, time-boxed recommendations
+⑤ Next Steps          — suggested follow-up commands
+```
 
-        ---
+---
 
-        ## Source Repository
+## Source Repository
 
-        This suite is derived from
-        **[wshobson/commands](https://github.com/wshobson/commands)**
-        which focuses on: _57 production slash commands: 15 workflows, 42 tools_.
+This suite is derived from
+**[wshobson/commands](https://github.com/wshobson/commands)**
+which focuses on: _57 production slash commands: 15 workflows, 42 tools_.
 
-        Improvements in this adaptation:
-        - Domain-specific command vocabulary for SEO & Content Marketing
-        - Enhanced structured output with visual progress tracking
-        - Prioritised action plans with time estimates
-        - Workflow orchestration for end-to-end processes
-        - Consistent UI conventions across all commands
+Improvements in this adaptation:
+- Domain-specific command vocabulary for SEO & Content Marketing
+- Enhanced structured output with visual progress tracking
+- Prioritised action plans with time estimates
+- Workflow orchestration for end-to-end processes
+- Consistent UI conventions across all commands
 
-        ---
+---
 
-        ## License
+## License
 
-        MIT — free to use, modify and distribute.
+MIT — free to use, modify and distribute.

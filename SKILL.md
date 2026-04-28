@@ -1,30 +1,30 @@
-        ---
-        name: "r00-wshobson-commands--seo"
-        description: >
-          📈 SEO & Content Marketing skill suite derived from wshobson/commands.
-          Keyword research, content audits, SERP analysis, technical SEO and content strategy.
-          Provides 10 specialised commands for seo, content, marketing workflows.
-        version: "1.0.0"
-        domain: seo
-        tags: ["seo", "content", "marketing", "serp", "keywords"]
-        source: "https://github.com/wshobson/commands"
-        license: MIT
-        ---
+---
+name: "r00-wshobson-commands--seo"
+description: >
+  📈 SEO & Content Marketing skill suite derived from wshobson/commands.
+  Keyword research, content audits, SERP analysis, technical SEO and content strategy.
+  Provides 10 specialised commands for seo, content, marketing workflows.
+version: "1.0.0"
+domain: seo
+tags: ["seo", "content", "marketing", "serp", "keywords"]
+source: "https://github.com/wshobson/commands"
+license: MIT
+---
 
-        # 📈 SEO & Content Marketing Skill Suite
+# 📈 SEO & Content Marketing Skill Suite
 
-        > Derived from **wshobson/commands** · Focus: _57 production slash commands: 15 workflows, 42 tools_
+> Derived from **wshobson/commands** · Focus: _57 production slash commands: 15 workflows, 42 tools_
 
-        ## Overview
+## Overview
 
-        This skill provides 10 production-ready commands tailored for
-        **SEO & Content Marketing** workflows. All commands follow a consistent
-        interaction pattern with structured output, progress tracking and
-        actionable recommendations.
+This skill provides 10 production-ready commands tailored for
+**SEO & Content Marketing** workflows. All commands follow a consistent
+interaction pattern with structured output, progress tracking and
+actionable recommendations.
 
-        ## Available Commands
+## Available Commands
 
-        - `/keyword-research` — Deep keyword clustering and opportunity scoring with SERP intent mapping
+- `/keyword-research` — Deep keyword clustering and opportunity scoring with SERP intent mapping
 - `/content-audit` — Full-site content quality score, duplication check and cannibalization report
 - `/technical-seo` — Crawl budget, Core Web Vitals, schema markup and indexability audit
 - `/competitor-gap` — Backlink gap, topic gap and featured-snippet opportunity analysis
@@ -35,44 +35,44 @@
 - `/local-seo` — NAP consistency, Google Business Profile optimisation and local citation audit
 - `/content-calendar` — Data-driven editorial calendar built from search demand and seasonality
 
-        ## Interaction Pattern
+## Interaction Pattern
 
-        Every command follows this structured response format:
+Every command follows this structured response format:
 
-        ```
-        1. CONTEXT CHECK   — Verify inputs and confirm scope with user
-        2. ANALYSIS        — Deep analysis with live progress display
-        3. FINDINGS TABLE  — Structured results with severity / priority
-        4. RECOMMENDATIONS — Prioritised action list (quick wins first)
-        5. NEXT STEPS      — Suggested follow-up commands
-        ```
+```
+1. CONTEXT CHECK   — Verify inputs and confirm scope with user
+2. ANALYSIS        — Deep analysis with live progress display
+3. FINDINGS TABLE  — Structured results with severity / priority
+4. RECOMMENDATIONS — Prioritised action list (quick wins first)
+5. NEXT STEPS      — Suggested follow-up commands
+```
 
-        ## UI Conventions
+## UI Conventions
 
-        | Symbol | Meaning              |
-        |--------|----------------------|
-        | ✓      | Passed / complete    |
-        | ✗      | Failed / critical    |
-        | ⚠      | Warning / review     |
-        | ⟳      | In progress          |
-        | ░      | Pending              |
-        | 🔴     | Critical severity    |
-        | 🟠     | High severity        |
-        | 🟡     | Medium severity      |
-        | 🟢     | Low / informational  |
+| Symbol | Meaning              |
+|--------|----------------------|
+| ✓      | Passed / complete    |
+| ✗      | Failed / critical    |
+| ⚠      | Warning / review     |
+| ⟳      | In progress          |
+| ░      | Pending              |
+| 🔴     | Critical severity    |
+| 🟠     | High severity        |
+| 🟡     | Medium severity      |
+| 🟢     | Low / informational  |
 
-        Progress bars use block characters:
-        `[████████░░] 80%`
+Progress bars use block characters:
+`[████████░░] 80%`
 
-        ## Quick Start
+## Quick Start
 
-        ```bash
-        # Install this skill
-        cp -r . ~/.claude/skills/r00-wshobson-commands--seo/
+```bash
+# Install this skill
+cp -r . ~/.claude/skills/r00-wshobson-commands--seo/
 
-        # In Claude Code
-        /read ~/.claude/skills/r00-wshobson-commands--seo/SKILL.md
-        ```
+# In Claude Code
+/read ~/.claude/skills/r00-wshobson-commands--seo/SKILL.md
+```
 
-        Then simply describe your task and Claude will route to the
-        appropriate command automatically.
+Then simply describe your task and Claude will route to the
+appropriate command automatically.
